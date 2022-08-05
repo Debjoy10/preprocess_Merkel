@@ -1,3 +1,5 @@
+bash download_model.sh
+
 python  crop_from_timings.py --timings_file ../Merkel-Podcast-Corpus/timings.txt --data_path ../Merkel-Podcast-Corpus/corpus --save_dir temp/
 
 find temp/ -type f -regex ".*\.mp4" > temp/mp4_list.txt
