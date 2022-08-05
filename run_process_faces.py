@@ -14,7 +14,7 @@ from scenedetect.detectors import ContentDetector
 from scipy.interpolate import interp1d
 from scipy.io import wavfile
 from scipy import signal
-
+import torch
 import pickle
 
 from detectors import S3FD
@@ -164,7 +164,10 @@ def crop_video(opt,track,cropfile):
 
 def inference_video(opt):
 
-  DET = S3FD(device='cuda')
+  if torch.cuda.is_available():
+    DET = S3FD(device='cuda')
+  else:
+    DET = S3FD(device='cpu')
 
   flist = glob.glob(os.path.join(opt.frames_dir,opt.reference,'*.jpg'))
   flist.sort()
