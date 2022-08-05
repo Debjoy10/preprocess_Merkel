@@ -27,3 +27,9 @@ python scene_writer.py --lip_videos_dir lip_out/pycrop/ --face_videos_dir out/py
 bash files/to_run.sh
 
 python utils/metadata_writer.py --dataset_dir ../Merkel_Single_Speaker/
+
+rm -rf out
+rm -rf lip_out
+rm -rf TSout
+rm -rf temp
+rm avi_list.txt
