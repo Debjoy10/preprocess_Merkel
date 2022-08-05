@@ -4,7 +4,6 @@ This repository can be used to automatically extract single-speaker dataset from
 ## How to Run
 ```
 pip install -r requirements.txt
-bash download_model.sh
 bash run.sh
 ```
 
