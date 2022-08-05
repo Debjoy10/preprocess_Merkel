@@ -1,5 +1,5 @@
 # Preprocess Merkel-Podcast-Corpus
-This repository contains scripts that can be used to automatically extract single-speaker dataset from [Merkel Podcast Corpus](https://github.com/deeplsd/Merkel-Podcast-Corpus)
+This repository can be used to automatically extract single-speaker dataset from the [Merkel Podcast Corpus](https://github.com/deeplsd/Merkel-Podcast-Corpus)
 
 ## How to Run
 ```
