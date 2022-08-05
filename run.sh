@@ -2,9 +2,9 @@ python  crop_from_timings.py --timings_file ../Merkel-Podcast-Corpus/timings.txt
 
 find temp/ -type f -regex ".*\.mp4" > temp/mp4_list.txt
 
-CUDA_VISIBLE_DEVICES="0" python run_process_faces.py --file temp/mp4_list.txt
+python run_process_faces.py --file temp/mp4_list.txt
 
-CUDA_VISIBLE_DEVICES="0" python run_process_lips.py --file temp/mp4_list.txt
+python run_process_lips.py --file temp/mp4_list.txt
 
 cd TalkNet_ASD
 
