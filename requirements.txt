@@ -1,0 +1,18 @@
+# conda install -c conda-forge face_recognition
+pydub
+scenedetect
+torch
+torchvision
+python-speech-features
+webrtcvad
+audioread
+numba
+resampy
+scipy
+librosa
+opencv-python
+resemblyzer
+pandas
+tqdm
+matplotlib
+seaborn
