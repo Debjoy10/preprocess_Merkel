@@ -3,6 +3,7 @@ This repository can be used to automatically extract single-speaker dataset from
 
 ## How to Run
 ```
+conda install -c conda-forge face_recognition
 pip install -r requirements.txt
 bash run.sh
 ```
