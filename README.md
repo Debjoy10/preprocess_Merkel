@@ -2,10 +2,18 @@
 This repository can be used to automatically extract single-speaker dataset from the [Merkel Podcast Corpus](https://github.com/deeplsd/Merkel-Podcast-Corpus)
 
 ## How to Run
+### Install Dependencies
 ```
 conda install -c conda-forge face_recognition
 pip install -r requirements.txt
+```
+### Running all scripts
+```
 bash run.sh
+```
+**If using the existing `timings.txt` file in [Merkel Podcast Corpus](https://github.com/deeplsd/Merkel-Podcast-Corpus), some of the steps can be skipped.**
+```
+bash run_with_timings.sh
 ```
 
 ### Done! Use the dataset to train TTS Systems! :tada::tada:
